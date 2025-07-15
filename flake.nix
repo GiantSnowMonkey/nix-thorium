@@ -38,7 +38,6 @@
         version = "130.0.6723.174 - 62";
         src = pkgs.fetchurl {
           url = "https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_AVX.AppImage";
-          sha256 = "sha256-123ece21d02361199a0e5bf9e80354e69b1cbb070110179ee953d903715dc6c4";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
       in
