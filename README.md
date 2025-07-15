@@ -6,11 +6,11 @@ Refer to the [Thorium Browser](https://thorium.rocks/) website for more informat
 ## Running without Installation
 
 ```bash
-nix run github:almahdi/nix-thorium
+nix run github:GiantSnowMonkey/nix-thorium
 ```
 
 ## Installation
 
 ```bash
-nix profile install github:almahdi/nix-thorium
+nix profile install github:GiantSnowMonkey/nix-thorium
 ```
